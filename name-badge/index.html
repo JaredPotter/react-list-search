@@ -1,59 +1,17 @@
 <html>
     <body>
+        <div class="set-name">
+            <input id="nameInput" type="text">
+            <button id="setNewName">Set New Name</button>            
+        </div>
         <div class="name-badge">
             <div class="label">
                 <span class="big-text">Hello</span>
                 <span>my name is</span>
             </div>
-            <div class="name">Jared</div>
+            <div class="name" id="name">Jared</div>
         </div>
     </body>
-    <style>
-        /* todo: put in seperate CSS file  */
-        .label span {
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        }
-        
-        body {
-            background: #404040;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .name-badge {
-            width: 200px;
-            height: 175px;
-            background: red;
-            border-radius: 15px;
-            box-shadow: 3px 6px #1e1e1e;
-            position: relative;
-        }
-
-        .name {
-            font-size: 36px;
-            padding-top: 20px;
-            padding-bottom: 20px;
-            width: 100%;
-            background: white;
-            text-align: center;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            position: absolute;
-            bottom: 15px;
-        }
-
-        .label {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .label * {
-            color: white;
-            text-align: center;
-        }
-
-        .big-text {
-            font-size: 30px;
-        }
-    </style>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/index.js"></script>
 </html>

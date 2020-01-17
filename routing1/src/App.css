@@ -1,0 +1,23 @@
+.nav-bar {
+  width: 100%;
+  background: gray;
+  display: flex;
+}
+
+.nav-bar a {
+  padding: 15px;
+  border: 1px solid black;
+  text-decoration: none;
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.nav-bar a:hover {
+  background: green;
+  cursor: pointer;
+}
+
+.active {
+  background: green;
+}

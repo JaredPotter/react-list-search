@@ -1,0 +1,12 @@
+.virtual-dash-button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;;
+
+    height: 300px;
+    width: 200px;
+}
+
+.virtual-dash-button-container img {
+    width: 80%;
+}
